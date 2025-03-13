@@ -1,118 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cyber Shield: Stay Safe Online</title>
-    <link rel="stylesheet" href="../css/main.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <style>
-      .card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        cursor: pointer;
-        text-decoration: none;
-        color: inherit;
-        padding: 20px;
-        width: 60%;
-        margin: auto;
-      }
 
-      .card:hover {
-        transform: scale(1.05);
-        box-shadow: 0 0 20px #84b4e4;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Shield: Stay Safe Online</title>
+  <link rel="stylesheet" href="../css/main.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      padding: 20px;
+      width: 60%;
+      margin: auto;
+    }
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="../../index.html">Cyber Shield</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Safety Tips</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact-us.html">Contact</a>
-            </li>
-          </ul>
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #84b4e4;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="../../index.html">Cyber Shield</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Safety Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="tips" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Cyber Security Tips</h2>
+      <div class="bg-secondary">
+        <div class="d-flex flex-column align-items-center">
+          <a href="strong-passwords.html" class="card mb-3 mt-3">
+            <h5>Use Strong Passwords</h5>
+            <p>
+              Create unique and strong passwords for each account to prevent
+              unauthorized access.
+            </p>
+          </a>
+          <a href="2fa.html" class="card mb-3">
+            <h5>Enable Two-Factor Authentication</h5>
+            <p>
+              Add an extra layer of security by enabling 2FA on your accounts.
+            </p>
+          </a>
+          <a href="phishing-attacks.html" class="card mb-3">
+            <h5>Beware of Phishing Attacks</h5>
+            <p>
+              Do not click on suspicious links or provide personal information
+              to unknown sources.
+            </p>
+          </a>
+          <a href="software-updates.html" class="card mb-3">
+            <h5>Keep Your Software Up-to-Date</h5>
+            <p>
+              Regularly update your software, including operating systems,
+              browsers, and apps to protect against security vulnerabilities.
+            </p>
+          </a>
+          <a href="password-manager.html" class="card mb-3">
+            <h5>Use a Password Manager</h5>
+            <p>
+              A password manager can help you create, store, and manage strong
+              passwords for all your accounts securely.
+            </p>
+          </a>
+          <a href="secure-wifi.html" class="card mb-3">
+            <h5>Secure Your Wi-Fi Network</h5>
+            <p>
+              Protect your home Wi-Fi network by using a strong password and
+              enabling network encryption.
+            </p>
+          </a>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
 
-    <section id="tips" class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Cyber Security Tips</h2>
-        <div class="bg-secondary">
-          <div class="d-flex flex-column align-items-center">
-            <a
-              href="strong-passwords.html"
-              class="card mb-3 mt-3"
-            >
-              <h5>Use Strong Passwords</h5>
-              <p>
-                Create unique and strong passwords for each account to prevent
-                unauthorized access.
-              </p>
-            </a>
-            <a href="2fa.html" class="card mb-3">
-              <h5>Enable Two-Factor Authentication</h5>
-              <p>
-                Add an extra layer of security by enabling 2FA on your accounts.
-              </p>
-            </a>
-            <a href="phishing-attacks.html" class="card mb-3">
-              <h5>Beware of Phishing Attacks</h5>
-              <p>
-                Do not click on suspicious links or provide personal information
-                to unknown sources.
-              </p>
-            </a>
-            <a href="software-updates.html" class="card mb-3">
-              <h5>Keep Your Software Up-to-Date</h5>
-              <p>
-                Regularly update your software, including operating systems,
-                browsers, and apps to protect against security vulnerabilities.
-              </p>
-            </a>
-            <a href="password-manager.html" class="card mb-3">
-              <h5>Use a Password Manager</h5>
-              <p>
-                A password manager can help you create, store, and manage strong
-                passwords for all your accounts securely.
-              </p>
-            </a>
-            <a href="secure-wifi.html" class="card mb-3">
-              <h5>Secure Your Wi-Fi Network</h5>
-              <p>
-                Protect your home Wi-Fi network by using a strong password and
-                enabling network encryption.
-              </p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Cyber Shield. All Rights Reserved.</p>
+  </footer>
 
-    <footer class="bg-dark text-white text-center py-3">
-      <p>&copy; 2025 Cyber Shield. All Rights Reserved.</p>
-    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>

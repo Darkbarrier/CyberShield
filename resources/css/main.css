@@ -1,7 +1,12 @@
 .hero {
-    background: url('https://nexstor.com/wp-content/uploads/2023/03/FEATURED-IMAGE-TEMPLATE-Nexstor-2-1.png') no-repeat center center;
-    background-size: cover;
-    color: #e0ffff;
-    text-align: center;
-    padding: 100px 20px;
-  }
+  background: url("https://nexstor.com/wp-content/uploads/2023/03/FEATURED-IMAGE-TEMPLATE-Nexstor-2-1.png")
+    no-repeat center center;
+  background-size: cover;
+  color: #e0ffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+body {
+  background-color: #84b4e4 !important;
+}
